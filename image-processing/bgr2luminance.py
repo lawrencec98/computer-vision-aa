@@ -26,11 +26,10 @@ def bgr2luminance(bgr_image):
     return lum_img
 
 
-
 # Read in an image
 rgb_img = cv.imread('rgb_parrot.jpg')
 
-# print(mono_img)
+# Convert the image to greyscale (luminance)
 luminance_image = bgr2luminance(rgb_img)
 
 cv.imshow('before',rgb_img)
