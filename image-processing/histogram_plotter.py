@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 # Step 1: Convert the color image to luminance.
 
 # Read image
-rgb_img = cv.imread('rgb_parrot.jpg')
+rgb_img = cv.imread('rgb_tucan.jpg')
 temp = cv.cvtColor(rgb_img, cv.COLOR_BGR2GRAY) # Convert from BGR to Grayscale
 
 mono_img = temp.copy()
