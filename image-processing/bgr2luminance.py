@@ -1,8 +1,3 @@
-# Exercise 3.7 Histogram equalization
-
-# Compute the gray level (luminance) histogram for an image and equalize it so that the tones look
-# better (and the image is less sensitive to exposure settings).
-
 import numpy as np
 import cv2 as cv
 import matplotlib.pyplot as plt

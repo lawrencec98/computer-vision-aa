@@ -1,6 +1,3 @@
-# Implement Gaussian filter
-# Take a blurry or nosy image and try to improve the appearance and legibility
-
 import cv2 as cv
 import numpy as np
 
